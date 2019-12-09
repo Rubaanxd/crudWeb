@@ -45,6 +45,9 @@ html,body{
     background-color: rgba(255, 255, 255, 0.5);
     transition: all .7s ease-in;
 }
+/*
+    Parte del diseño del menu en pantallas menores de 500px
+*/
 @media only screen and (max-width: 500px){
     .menu li{
         margin: 2%;
@@ -57,9 +60,9 @@ html,body{
         border-radius: 30px 30px 30px 30px;
         background-color: rgba(255, 255, 255, 0.2);
 
-        menu li:hover{
+/*        menu li:hover{
             background-color: rgba(255, 255, 255, 0.5);
             transition: all .7s ease-in;
-        }
+        }*/
     }
 }
