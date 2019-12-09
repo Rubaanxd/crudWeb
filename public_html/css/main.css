@@ -1,0 +1,43 @@
+/* 
+    Created on : 5 dic. 2019, 22:10:13
+    Author     : RubaanxD
+*/
+*{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+body{
+    background-image: url(../assets/images/fondo.jpg);
+}
+.header{
+    margin: 20px;
+    float: none;
+    display: block;
+    text-align: center;
+    border: solid black 0.5px;
+    /*border-radius: 68px 68px 68px 68px;*/
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+}
+.menuPrincipal{
+    margin: 30px;
+    float: none;
+    display: block;
+    text-align: center;
+/*    border: solid black 0.5px;
+    border-radius: 68px 68px 68px 68px;
+    background-color: rgba(255, 255, 255, 0.2);*/
+}
+.menu{
+    padding: 0px;
+}
+.menu li{
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline;
+    border: solid black 0.5px;
+    border-radius: 68px 68px 68px 68px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
