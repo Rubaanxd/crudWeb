@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <!--
-CRUD Version WEB
+Login de la Pagina principal
 -->
 <html>
     <head>
-        <title>Milenio - Gnsys</title>
+        <title>Login CRUD Web</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
     </head>
     <body>
-        <div class="containerMenu">
-            <div class="header">
-                <div class="contenido">
-                    <h1><span class="titulo">CRUD Web</span></h1>
-                    <div class="menuPrincipal">
-                        <nav>
-                            <ul class="menu">
-                                <li><a href="#!">Home</a></li>
-                                <li><a href="#!">Altas</a></li>
-                                <li><a href="#!">Bajas</a></li>
-                                <li><a href="#!">Consultas</a></li>
-                            </ul>
-                        </nav>
+        <div class="divBody">
+            <form action="js/login.js" method="post">
+                <div class="login">
+                    <div class="inputUsuario">
+                        <input type="text" id="username"/>
                     </div>
-                    <div class="titulo">
-                        <h3><span>Selecciona una opcion deseada</span></h3>
+                    <div class="labelUsuario">
+                        <label for="username">Username</label>
                     </div>
-                </div> 
-            </div>    
-        </div>    
+                    <div class="inputPassword">
+                        <input type="password" id="password"/>
+                    </div>
+                    <div class="lablePassword">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="boton">
+                        <button type="submit" name="btnLogin">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
