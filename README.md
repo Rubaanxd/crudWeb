@@ -31,4 +31,3 @@ El Plan es hacer en version web del programa en java que ya tengo en java [CRUD 
   - [ ] Consultas
       - [ ] Ticket
       - [ ] Equipo
-  
