@@ -11,26 +11,43 @@ Login de la Pagina principal
         <link rel="stylesheet" type="text/css" href="css/login.css">
     </head>
     <body>
-        <div class="divBody">
-            <form action="js/login.js" method="post">
-                <div class="login">
-                    <div class="inputUsuario">
-                        <input type="text" id="username"/>
-                    </div>
-                    <div class="labelUsuario">
-                        <label for="username">Username</label>
-                    </div>
-                    <div class="inputPassword">
-                        <input type="password" id="password"/>
-                    </div>
-                    <div class="lablePassword">
-                        <label for="password">Password</label>
-                    </div>
-                    <div class="boton">
-                        <button type="submit" name="btnLogin">Login</button>
-                    </div>
+        <form class="divBody" action="js/login.js" method="post">
+            <!--<div class="divBody">-->
+            <div class="login">
+                <div class="inputUsuario">
+                    <input type="text" id="username" name="username"/>
                 </div>
-            </form>
-        </div>
+                <div class="labelUsuario">
+                    <label for="username">Username</label>
+                </div>
+                <div class="inputPassword">
+                    <input type="password" id="password" name="pass"/>
+                </div>
+                <div class="lablePassword">
+                    <label for="password">Password</label>
+                </div>
+                <div class="boton">
+                    <button type="submit" name="btnLogin" onclick="obtenerValores()">Login</button>
+                </div>
+            </div>
+            <!--</div>-->
+        </form>
+        <script type="text/javascript" src="js/login.js"></script>
+        <!--<script>
+            var username;
+            var pass;
+            function obtenerValores() {
+                if (document.getElementById("username"). !== null) {
+                    username = document.getElementById("username").value;
+                } else {
+                    alert("El campo de Usuario es Obligatorio");
+                }
+                if (document.getElementById("password") !== null) {
+                    pass = document.getElementById("password").value;
+                } else {
+                    alert("La contraseña esta vacia");
+                }
+            }
+        </script>-->
     </body>
 </html>

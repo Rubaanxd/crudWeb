@@ -10,7 +10,6 @@ html,body{
     margin: 0;
     width: 100%;
     background-image: url(../assets/images/fondo.jpg);
-    //height: 100vh;
 }
 .containerMenu{
     width: 100%;

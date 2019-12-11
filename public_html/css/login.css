@@ -13,12 +13,17 @@ html,body{
     margin: 0;
     width: 100%;
     background-image: url(../assets/images/fondo.jpg);
-    //height: 100vh;
 }
 .divBody{
     height: 100vh;
     display: flex;
     align-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    align-content: center;
+    text-align: center;
     align-items: center;
 }
 .login{
